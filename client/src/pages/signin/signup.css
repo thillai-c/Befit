@@ -1,0 +1,106 @@
+.wrapLogin {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.leftLogin img {
+    width: fit-content;
+    height: 100vh;
+}
+
+.rightLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.fieldL {
+    margin: 1rem 0;
+}
+
+.fieldL input {
+    background-color: #CDDEE1;
+    border: none;
+    padding: 1rem;
+}
+
+.wrapL {
+    width: 40vw;
+}
+
+.wrapL h1 {
+    text-align: center;
+    color: #0A4284;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form {
+    width: 70%;
+}
+
+.fieldL {
+    margin: 1rem 0;
+    width: -webkit-fill-available;
+}
+
+.fname {
+    margin: 1rem 0;
+    width: -webkit-fill-available;
+}
+
+.lname {
+    margin: 1rem 0;
+    width: -webkit-fill-available;
+}
+
+.fieldL input {
+    background-color: #CDDEE1;
+    border: none;
+    padding: 1rem;
+    width: inherit;
+}
+
+.buttonsL {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 1rem 0;
+}
+
+.buttonsL button {
+    padding: 0.5rem 0.6rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonsL button:hover {
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+.gglL {
+    background-color: #CCDEFA;
+}
+
+.gglLL {
+    background-color: #0A4284;
+    color: white;
+}
+
+.liL {
+    /* background-color: #0A4284; */
+    background-color: #CCDEFA;
+}
+
+.suL {
+    text-align: center;
+}

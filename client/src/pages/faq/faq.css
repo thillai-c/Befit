@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+header h1 {
+    color: #0000;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.faqs {
+    width: 100%;
+    max-width: 97vw;
+    margin: 0 auto;
+    /* padding: 15px; */
+    min-height: 71vh;
+}
+
+.faqs .faq {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.faqs .faq .faq-question {
+    position: relative;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Playfair Display";
+    padding-right: 80px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.faqs .faq .faq-question::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%);
+    background-image: url("./Plus-sign.png");
+    background-position: fixed center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.faqs .faq .faq-answer {
+    opacity: 0;
+    max-height: 0;
+    left: 150px;
+    top: 50%;
+    overflow-y: hidden;
+    transition: all 0.4s ease;
+}
+
+.faqs .faq.open .faq-question {
+    margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.faqs .faq .faq-answer {
+    display: none;
+}
+
+.faqs .faq.open .faq-answer {
+    max-height: 1000px;
+    opacity: 1;
+    display: block;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
+}
+
+.contentF {
+    padding: 1rem 2rem;
+}
+
+.contentF h1 {
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+}

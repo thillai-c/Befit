@@ -1,0 +1,173 @@
+.coverSettings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 80vw;
+    margin: auto;
+}
+
+.coverSettings form {
+    width: 100%;
+}
+
+.iniSet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.welSet {
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+.btnSet {
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: 'Playfair Display';
+}
+
+.colG {
+    color: black;
+}
+
+.colG:hover {
+    color: #689097;
+}
+
+.colR {
+    color: red;
+}
+
+.outerWrapSet {
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.leftWrapSet {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftWrapSet img {
+    max-width: 18rem;
+    max-height: 18rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightWrapSet {
+    width: 85%;
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nameSet {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.nameSet input:first-child {
+    width: 100%;
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.inNameSet {
+    display: flex;
+    align-items: center;
+}
+
+.inNameSet input {
+    margin: 1rem 0 1rem 0 !important;
+    font-size: 1.5rem !important;
+    width: 10rem;
+}
+
+.name {
+    margin: 1rem 0 0.3rem 0 !important;
+    font-size: 1.5rem !important;
+    text-decoration: underline;
+}
+
+.tagline {
+    font-style: italic;
+    width: 100%;
+}
+
+.titleSet {
+    font-size: 2rem;
+    color: #689097;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+}
+
+.coverSettings textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    font-family: 'Playfair Display';
+    padding: 0.5rem;
+}
+
+.coverSettings input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin: 5px 0.5rem 0 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.innerSet label,
+.innerSet .labels {
+    font-size: 1.2rem;
+    width: 60%;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.basicContentSet {
+    display: flex;
+}
+
+.innerSet {
+    width: 50%;
+    display: flex;
+    padding-right: 1rem;
+}
+
+.innerSet input {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons div {
+    cursor: pointer;
+}
+
+.buttons button {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display';
+    border: none;
+    background-color: unset;
+    color: #689097;
+    cursor: pointer;
+}

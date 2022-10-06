@@ -1,0 +1,101 @@
+.write {
+    padding-top: 2rem;
+}
+
+.writeWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.writeImg {
+    width: 80vw;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.writeForm {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.writeFormGroup {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+}
+
+.writeIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(129, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.writeInput {
+    font-size: 2rem;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.writeInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+}
+
+.writeInput:focus {
+    outline-style: none;
+}
+
+.writeText {
+    width: 70vw;
+    height: 51vh;
+    font-family: inherit;
+    font-size: 1.3rem;
+}
+
+.writeFormGroup textarea {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.writeSubmit {
+    color: white;
+    background-color: black;
+    padding: 0.4rem 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+}
+
+.write h1 {
+    width: 80vw;
+    margin: 0 auto 1rem auto;
+}
+
+.buttonsWrite {
+    display: flex;
+}
+
+.buttonsWrite div {
+    margin-left: 1rem;
+}

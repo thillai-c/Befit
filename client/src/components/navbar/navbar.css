@@ -1,0 +1,59 @@
+.nav {
+    background-color: #0E0E0E;
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center div {
+    margin: 0rem 0.5rem;
+}
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login {
+    border: solid 0.03rem white;
+    padding: 0.4rem 1rem;
+    margin: 0rem 0.5rem;
+}
+
+.login:hover {
+    background-color: white;
+    color: #0E0E0E;
+}
+
+.signup {
+    border: solid 0.03rem white;
+    padding: 0.4rem 1rem;
+    background-color: white;
+    color: #0E0E0E;
+    margin: 0rem 0.5rem;
+}
+
+.logo {
+    font-size: 1.7rem;
+}

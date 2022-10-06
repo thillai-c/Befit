@@ -1,0 +1,112 @@
+.singlePostWrap {
+    flex: 10;
+    padding-right: 2rem;
+}
+
+.sptitle h2,
+.titlewraps h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+.sptitleout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.sptitleout h2 {
+    font-size: 1rem;
+}
+
+.sptitleinput {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    border-bottom: solid 2px lightgray;
+    width: 100%;
+}
+
+.sptitleinput:focus {
+    outline: none;
+}
+
+.singlePostWrap img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sptitle {
+    margin-bottom: 1rem;
+}
+
+.spwrap {
+    display: flex;
+}
+
+.spdescr {
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.spdescr::first-letter {
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.spdescrinput {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    width: 100%;
+    height: 30rem;
+    border: none;
+    border-bottom: solid 2px lightgray;
+    padding: 0.5rem;
+}
+
+.spdescrinput:focus {
+    outline: none;
+}
+
+.spi i {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.spdate {
+    cursor: unset !important;
+}
+
+.spupbtn {
+    background-color: rgb(96, 162, 148);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.fa-trash:hover {
+    color: tomato;
+}
+
+.spCats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.spCats i {
+    margin-right: 1rem;
+}
+
+.spCats span {
+    margin-right: 0.5rem;
+}

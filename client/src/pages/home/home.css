@@ -1,0 +1,48 @@
+.home {
+    min-height: 84.7vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(32, 32, 32);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #423e3e;
+}
+
+.writeArticle {
+    color: white;
+    background-color: black;
+    padding: 0.4rem 1rem;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: fit-content;
+}
+
+.containHome {
+    display: flex;
+    justify-content: center;
+}

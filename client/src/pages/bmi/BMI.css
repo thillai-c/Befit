@@ -1,0 +1,24 @@
+.bmi {
+  width: 60%;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label{
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+input[type=submit]
+{
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 14px 40px;
+}
