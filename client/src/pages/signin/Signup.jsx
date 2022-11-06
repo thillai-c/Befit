@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
   const [firstname, setFName] = useState("");
-  const [lastname, setLName] = useState("");
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
+  const [exercise, setExercise] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
 
@@ -18,9 +18,9 @@ export default function Login() {
     try {
       const res = await axios.post("/auth/signup", {
         firstname,
-        lastname,
         username,
         email,
+        exercise,
         password,
       });
       res.data && window.location.replace("/login");
@@ -48,16 +48,6 @@ export default function Login() {
                   onChange={(e) => setFName(e.target.value)}
                 />
               </div>
-              <div className="fieldL ">
-                <input
-                  type="text"
-                  name="Slname"
-                  id="Slname"
-                  placeholder="Last Name"
-                  required
-                  onChange={(e) => setLName(e.target.value)}
-                />
-              </div>
               <div className="fieldL">
                 <input
                   type="text"
@@ -76,6 +66,15 @@ export default function Login() {
                   placeholder="Email"
                   required
                   onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <div className="fieldL">
+                <input
+                  type="text"
+                  name="Sexercise"
+                  id="Sexercise"
+                  placeholder="Favourite exercise"
+                  onChange={(e) => setExercise(e.target.value)}
                 />
               </div>
               <div className="fieldL">

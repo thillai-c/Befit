@@ -8,6 +8,22 @@
     margin: auto;
 }
 
+.useri
+{
+    display: block;
+    background-image: url(./image2.webp);
+    background-repeat: no-repeat;
+    max-width: 100%;  
+    height: 16rem;  
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+/* img {
+    max-width: 100%;
+    height: auto;
+  } */
+
 .coverSettings form {
     width: 100%;
 }
@@ -135,9 +151,15 @@
 .innerSet label,
 .innerSet .labels {
     font-size: 1.2rem;
-    width: 60%;
+    width: 50%;
     font-style: italic;
     font-weight: 600;
+}
+
+.desig
+{
+    font-size: 1.2rem;
+    width: 100%;
 }
 
 .basicContentSet {
