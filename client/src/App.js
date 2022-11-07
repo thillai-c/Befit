@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
+import MlModel from "./pages/mlmodel/mlmodel";
 import Footer from "./components/footer/Footer.jsx";
 import Home from "./pages/home/Home";
 import SinglePost from "./pages/singlePost/Single";
@@ -16,6 +17,7 @@ import Research from "./pages/research/Research";
 import FAQ from "./pages/faq/FAQ";
 import HomePage from "./pages/homePage/homePage";
 import BMI from "./pages/bmi/BMI";
+import Recipe from "./pages/recipes/recipe";
 
 function App() {
   const { user } = useContext(Context);
@@ -100,6 +102,16 @@ function App() {
         <Route exact path="/bmi">
           <Navbar />
           <BMI />
+          <Footer />
+        </Route>
+        <Route exact path="/mlmodel">
+          <Navbar />
+          <MlModel />
+          <Footer />
+        </Route>
+        <Route exact path="/recipe">
+          <Navbar />
+          <Recipe />
           <Footer />
         </Route>
       </Switch>

@@ -1,0 +1,42 @@
+body{
+  background: linear-gradient(rgba(246, 246, 246, 0.7),rgba(255, 255, 255, 0.676)),url('https://lh3.googleusercontent.com/UPSsJ_24DsFRUSFbiNjpbeN1HD7StsSYy2AxN54lSb6C52vhzdav06SHTPBViv5zQA=w800-h500') center;
+  background-size: cover;
+  height: 100vh;
+}
+
+ .container1{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url('https://xcal.com/wp-content/uploads/2022/07/cycle_prox_02.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+   padding: 250px 40px;
+   text-align: center;
+   color: white;
+   font-size: 50px;
+ }
+ .container1 p{
+   max-width: 600px;
+   margin: 25px auto;
+   font-size: 40px;
+   font-weight: 600;
+   
+ }
+ .tbox,.btn{
+   border: none;
+   outline: none;
+   
+ }
+ .tbox{
+   width: 0px;
+   transition: 0.6s;
+ }
+ 
+ .btn{
+   background: rgb(255, 255, 255);
+   height: 100px;
+   color: rgb(0, 0, 0);
+   padding: 0 10px;
+   font-size: large;
+   text-transform: uppercase;
+   cursor: pointer;
+   
+ }

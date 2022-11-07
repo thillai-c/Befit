@@ -17,7 +17,7 @@ class BMI extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Guest",
+      // name: "Guest",
       weight: 90,
       height: 180,
       bmi: 27,
@@ -86,7 +86,7 @@ class BMI extends Component {
   change(e) {
     e.preventDefault();
     console.log(e.target);
-    this.setState({ name: e.target.value });
+    // this.setState({ name: e.target.value });
   }
 
   render() {
@@ -101,15 +101,15 @@ class BMI extends Component {
           height of a person.
         </p>
         <form onSubmit={this.submitMe}>
-          <label>Please enter your name: </label>
+          {/* <label>Please enter your name: </label>
           <input
             type="text"
             className="bmi"
-            name="name"
-            value={this.state.name}
+            // name="name"
+            // value={this.state.name}
             onBlur={this.blur}
             onChange={this.change}
-          />
+          /> */}
           <br />
           <label>Enter your height in cm: </label>
           <input

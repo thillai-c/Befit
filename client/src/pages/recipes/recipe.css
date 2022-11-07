@@ -1,0 +1,255 @@
+
+/* COLORS */
+.pxfd-color-primary { color: var(--pxfd-color-primary); }
+.pxfd-color-success { color: var(--pxfd-color-success); }
+.pxfd-color-warning { color: var(--pxfd-color-warning); }
+.pxfd-color-error { color: var(--pxfd-color-error); }
+.pxfd-color-white { color:aliceblue}
+.pxfd-color-light { color:azure }
+.pxfd-color-dark { color: var(--pxfd-color-dark); }
+
+.pxfd-color-sunny { color: var(--pxfd-color-sunny); }
+.pxfd-color-rainy { color: var(--pxfd-color-rainy); }
+.pxfd-color-snowy { color: var(--pxfd-color-snowy); }
+
+
+/* TYPOGRAPHY */
+.pxfd-fontfamily-poppins { font-family: var(--pxfd-fontfamily-poppins); }
+.pxfd-fontfamily-oswald { font-family: var(--pxfd-fontfamily-oswald); }
+
+.pxfd-fontsize-08 { font-size: 0.8rem; }
+.pxfd-fontsize-09 { font-size: 0.9rem; }
+.pxfd-fontsize-10 { font-size: 1rem; }
+.pxfd-fontsize-12 { font-size: 1.2rem; }
+.pxfd-fontsize-14 { font-size: 1.4rem; }
+.pxfd-fontsize-16 { font-size: 1.6rem; }
+.pxfd-fontsize-18 { font-size: 1.8rem; }
+.pxfd-fontsize-20 { font-size: 2rem; }
+.pxfd-fontsize-24 { font-size: 2.4rem; }
+.pxfd-fontsize-28 { font-size: 2.8rem; }
+.pxfd-fontsize-32 { font-size: 3.2rem; }
+.pxfd-fontsize-38 { font-size: 3.8rem; }
+.pxfd-fontsize-44 { font-size: 4.6rem; }
+.pxfd-fontsize-50 { font-size: 5rem; }
+
+.pxfd-fontweight-normal { font-weight: var(--pxfd-fontweight-normal); }
+.pxfd-fontweight-bold { font-weight: var(--pxfd-fontweight-bold); }
+
+
+.pxfd-text-left { text-align: left; }
+.pxfd-text-center { text-align: center; }
+.pxfd-text-right { text-align: right; }
+
+.caption
+{
+  font-size: 3rem;
+  margin-top: 4%;
+  margin-bottom: 2.5%;
+}
+
+/* LAYOUT */
+#pxfd-appworld {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: rgba(10, 0, 30, 0.4);
+}
+
+.pxfd-glassview {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 3px 2px rgb(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+}
+.pxfd-darkglassview {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0 3px 2px rgb(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+.pxfd-shadowicon {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pxfd-section {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.pxfd-cardrow {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+.pxfd-cardcol {
+    flex: 1 0 0%;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.pxfd-card {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    transition: transform 200ms ease;
+}
+.pxfd-card:hover {
+    transform: scale(1.03);
+}
+.pxfd-card-solid {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 4px 1px rgb(0, 0, 0, 0.3);
+}
+.pxfd-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 300ms ease;
+}
+.pxfd-card:hover img {
+    transform: scale(1.1);
+}
+.pxfd-card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 1.2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.8) 100%);
+}
+.pxfd-card-overlay ul {
+    margin-left: 1.2rem;
+}
+.pxfd-card-content {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+/* TOPBAR */
+#pxfd-topbar {
+    width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pxfd-topbar-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#pxfd-dailyinfo > span {
+    margin-right: 4rem;
+}
+
+#pxfd-userinfo {
+    position: relative;
+}
+#pxfd-userinfo > span {
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+}
+#pxfd-userinfo > span > span {
+    margin-left: 1rem;
+}
+#pxfd-user-img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border: 2px solid var(--pxfd-color-primary);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* MOBILE MENU */
+#pxfd-mobilemenu-toggle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+#pxfd-mobilemenu-toggle * {
+    position: absolute;
+    transition: opacity 300ms ease;
+}
+#pxfd-mobilemenu-toggle *:nth-child(1) {
+    opacity: 1;
+}
+#pxfd-mobilemenu-toggle *:nth-child(2) {
+    opacity: 0;
+}
+#pxfd-mobilemenu-toggle.pxfd-active {
+    transform: rotate(360deg);
+}
+#pxfd-mobilemenu-toggle.pxfd-active *:nth-child(1) {
+    opacity: 0;
+}
+#pxfd-mobilemenu-toggle.pxfd-active *:nth-child(2) {
+    opacity: 1;
+}
+
+#pxfd-mobilemenu {
+    position: fixed;
+    width: 90%;
+    max-width: 300px;
+    top: 8rem;
+    right: -310px;
+    padding: 1rem;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    transition: right 300ms ease;
+    display: none;
+}
+#pxfd-mobilemenu.pxfd-active {
+    right: 0px;
+}
+#pxfd-mobilemenu > span {
+    margin-bottom: 1rem;
+    display: block;
+}
+#pxfd-user-imgmobile {
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid var(--pxfd-color-primary);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 960px) {
+    .pxfd-mobilehidden { display: none; }
+    #pxfd-mobilemenu { display: block; }
+    #pxfd-mobilemenu-toggle { display: flex; }
+    .pxfd-col-6x { flex: 0 0 auto; width: 33.333%; }
+}
+@media only screen and (max-width: 768px) {
+    .pxfd-col-6x { flex: 0 0 auto; width: 50%;}
+    .pxfd-col-4x { flex: 0 0 auto; width: 50%; }
+}

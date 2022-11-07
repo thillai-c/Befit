@@ -25,13 +25,13 @@ export default function Navbar() {
           <Link to="/news">News</Link>
         </div>
         <div>
-          <Link to="/">ML Model</Link>
+          <Link to="/mlmodel">Exercise-Tracker</Link>
         </div>
         <div>
           <Link to="/research">Videos</Link>
         </div>
         <div>
-          <Link to="/">Community</Link>
+          <Link to="/recipe">Healthy-Diet</Link>
         </div>
         <div>
           <Link to="/faq">FAQ</Link>

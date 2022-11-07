@@ -11,7 +11,7 @@ export default function Settings() {
   const [firstname, setFirstName] = useState("");
   const [birthday, setBirthday] = useState("");
   const [exercise, setExercise] = useState("");
-  const [points, setPoints] = useState("");
+  // const [points, setPoints] = useState("");
   const [updateMode, setUpdateMode] = useState(false);
   const [success, setSuccess] = useState(false);
   console.log(user);
@@ -23,7 +23,6 @@ export default function Settings() {
       firstname,
       birthday,
       exercise,
-      points,
     };
     // if (file) {
     //   const data = new FormData();
@@ -148,16 +147,6 @@ export default function Settings() {
                       />
                     </div>
                     <br />
-                    <div className="innerSet">
-                      <label htmlFor="desig">Points:</label>
-                      <input
-                        type="text"
-                        name="desig"
-                        id="desig"
-                        defaultValue={user.points}
-                        onChange={(e) => setPoints(e.target.value)}
-                      />
-                    </div>
                   </div>
                 </div>
               ) : (
@@ -173,7 +162,7 @@ export default function Settings() {
                     </div>
                     <div className="innerSet">
                       <div className="labels">Points:</div>
-                      <div className="details">{user.points}</div>
+                      <div className="details">{100}</div>
                     </div>
                   </div>
                 </div>
